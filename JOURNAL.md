@@ -25,7 +25,7 @@
 9. [2026-10-07 – i hit the design rule checker button today and was greeted by an absolute wall of red error markers pointing out clearance violations and unconnected nets. i spent the entire session tweaking trace wi](#2026-10-07-i-hit-the-design-rule-checker-button-today-and-wa)
 10. [2026-10-07 – while inspecting my layout i made the horrifying discovery that i had swapped two resistor values near the crystal oscillator circuit. i moved them back into their correct positions and re-routed the](#2026-10-07-while-inspecting-my-layout-i-made-the-horrifying-)
 11. [2026-10-07 – i spent the first half of this session fine-tuning the silkscreen layer so the custom graphics would actually render crisply in physical two-tone white ink. a few hack club stickers looked super muddy](#2026-10-07-i-spent-the-first-half-of-this-session-fine-tunin)
-12. [2026-10-07 – Work session](#2026-10-07-work-session)
+12. [2026-10-07 – i uploaded my component placement file and bill of materials to jlcpcb, only to run into major component rotation and alignment bugs in their web viewer. i went through and manually adjusted offset co](#2026-10-07-i-uploaded-my-component-placement-file-and-bill-o)
 13. [2026-10-07 – So I finished it all off by creating the BOM and finding these freaking components which were genuinely so hard to find that I felt like a cyber crime investigator. Also I planned making a hackpad wit](#2026-10-07-so-i-finished-it-all-off-by-creating-the-bom-and-)
 
 ## Design
@@ -124,9 +124,11 @@ i spent the first half of this session fine-tuning the silkscreen layer so the c
 
 [Timelapse](https://lookout.hackclub.com/api/media/ba1b83b3-4d2b-42df-8b29-47f84c1282d5/video.mp4)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – i uploaded my component placement file and bill of materials to jlcpcb, only to run into major component rotation and alignment bugs in their web viewer. i went through and manually adjusted offset co
 
 **0.53h**
+
+i uploaded my component placement file and bill of materials to jlcpcb, only to run into major component rotation and alignment bugs in their web viewer. i went through and manually adjusted offset coordinates, fixed broken manufacturer part numbers, and aligned every single part correctly over its pads in 3d. unfortunately, the final pcba quote far exceeded my allocated grant budget, which means i will be ordering bare boards and hand-soldering every microscopic component myself [my hands are already shaking thinking about hand-soldering that qfn rp2040 chip during build week].
 
 [Timelapse](https://lookout.hackclub.com/api/media/12752c48-7398-4bda-996c-5bd7914e9018/video.mp4)
 
