@@ -18,7 +18,7 @@
 2. [2026-10-07 – this session was all about making sure the board can actually talk to external hardware and modules. i selected and placed the dual-row header connectors for all the breakout pins and spent a good chu](#2026-10-07-this-session-was-all-about-making-sure-the-board-)
 3. [2026-10-07 – i opened up the project today only to realize i had made a complete mess of my net labels and misassigned a bunch of critical gpio pins. i spent the entire two hours carefully tracing each wire back t](#2026-10-07-i-opened-up-the-project-today-only-to-realize-i-h)
 4. [2026-10-07 – today was dedicated to footprint assignment which is basically matching every virtual component to its real-world physical package. i spent time sifting through footprint libraries to find the precise](#2026-10-07-today-was-dedicated-to-footprint-assignment-which)
-5. [2026-10-07 – Work session](#2026-10-07-work-session)
+5. [2026-10-07 – this ended up being one of my absolute longest design sessions because i finally moved from the schematic over to the pcb layout editor. i drew the edge cuts to define the physical border of the board](#2026-10-07-this-ended-up-being-one-of-my-absolute-longest-de)
 6. [2026-10-07 – ![1000133429](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/CXd7Tc2SjOfp5fO0zNuwfYwkKkx3neG4/f5cda6259d80a37d843964ad9e9094405788a6d4c6de68871c628a0dc39b1731.jpg)](#2026-10-07-1000133429httpshalflifehackclub-assetscomhackclub)
 7. [2026-10-07 – Work session](#2026-10-07-work-session)
 8. [2026-10-07 – Work session](#2026-10-07-work-session)
@@ -62,9 +62,11 @@ today was dedicated to footprint assignment which is basically matching every vi
 
 [Timelapse](https://lookout.hackclub.com/api/media/ee675750-b7da-438b-a682-8e0a150c754e/video.mp4)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – this ended up being one of my absolute longest design sessions because i finally moved from the schematic over to the pcb layout editor. i drew the edge cuts to define the physical border of the board
 
 **1.5h**
+
+this ended up being one of my absolute longest design sessions because i finally moved from the schematic over to the pcb layout editor. i drew the edge cuts to define the physical border of the board and began the massive puzzle of placing components in logical groups. arranging dozens of tiny decoupling capacitors right next to the rp2040 power pins was super tough, so i scattered them around approximately while leaving room for future trace paths. i also swapped out a few bulky footprints for smaller variants to save precious board real estate [the workspace was pure chaos, but seeing the physical board shape felt awesome].
 
 [Timelapse](https://lookout.hackclub.com/api/media/0f32a795-2545-478b-b557-681a24d7bb3d/video.mp4)
 
