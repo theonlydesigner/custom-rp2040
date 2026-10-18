@@ -1,9 +1,9 @@
 # week 1: rp2040 dev board & mini hackpad
 
 ## project goals
-* **Target Specs:** custom RP2040 microcontroller board using the QFN-56 package, 16MB QSPI flash, 12MHz crystal oscillator, USB-C connector with 5.1k CC pull-down resistors, and dual-row breakout headers for all GPIO pins to drive a mini hackpad.
+* **Target Specs:** custom RP2040 microcontroller board using the QFN-56 package, 16MB QSPI flash, 12MHz crystal oscillator, USB-C connector with 5.1k CC pull-down resistors and dual-row breakout headers for all GPIO pins to drive a mini hackpad.
 * **Design Philosophy:** build a functional dev board from absolute ground zero using the hack club stasis guide so i finally understand what goes on under the hood of a raspberry pi pico [instead of treating microcontrollers like magic black boxes].
-* **Why I'm building this:** week 1 theme is PCB, and i needed a custom board to integrate with an old mini hackpad design i had lying around. also i wanted to suffer through routing 0402 passives and tiny IC pins.
+* **Why I'm building this:** week 1 theme is PCB and i needed a custom board to integrate with an old mini hackpad design i had lying around. also i wanted to suffer through routing 0402 passives and tiny IC pins.
 
 ## deep brief
 this project is essentially a custom raspberry pi pico clone built from scratch using the hack club stasis devboard guide. instead of buying a ready-made dev board you have to manually route every single trace and place every tiny passive component [because suffering builds character]. 
