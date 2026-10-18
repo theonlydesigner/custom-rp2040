@@ -4,7 +4,7 @@
 <!-- Generated: 2026-10-07T16:08:36.950Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuo1scll00bl01lzkqmx7wfy). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > This is a custom devboard which is used in a hackpad.
 
@@ -14,7 +14,7 @@
 
 ## Contents
 
-1. [2026-10-07 – Work session](#2026-10-07-work-session)
+1. [2026-10-07 – i kicked off the design process today by diving straight into the schematic editor on kicad to lay down the absolute foundation of the board. i placed the core rp2040 chip along with essential support](#2026-10-07-i-kicked-off-the-design-process-today-by-diving-s)
 2. [2026-10-07 – Work session](#2026-10-07-work-session)
 3. [2026-10-07 – Work session](#2026-10-07-work-session)
 4. [2026-10-07 – Work session](#2026-10-07-work-session)
@@ -30,9 +30,11 @@
 
 ## Design
 
-### 2026-10-07 – Work session
+### 2026-10-07 – i kicked off the design process today by diving straight into the schematic editor on kicad to lay down the absolute foundation of the board. i placed the core rp2040 chip along with essential support
 
 **0.8h**
+
+i kicked off the design process today by diving straight into the schematic editor on kicad to lay down the absolute foundation of the board. i placed the core rp2040 chip along with essential support components like the ldo voltage regulator and the w25q128 flash memory. mapping out the power pins and assign gpio lines to their corresponding nets took a while because i wanted to make sure i did not mix up any crucial connections [my schematic looked like a chaotic spiderweb by the end of it, but every pin had its rightful place].
 
 [Timelapse](https://lookout.hackclub.com/api/media/269a9ae2-2f54-47e3-90a6-ad32681b4d10/video.mp4)
 
