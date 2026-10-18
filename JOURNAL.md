@@ -21,7 +21,7 @@
 5. [2026-10-07 – this ended up being one of my absolute longest design sessions because i finally moved from the schematic over to the pcb layout editor. i drew the edge cuts to define the physical border of the board](#2026-10-07-this-ended-up-being-one-of-my-absolute-longest-de)
 6. [2026-10-07 – ![1000133429](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/CXd7Tc2SjOfp5fO0zNuwfYwkKkx3neG4/f5cda6259d80a37d843964ad9e9094405788a6d4c6de68871c628a0dc39b1731.jpg)](#2026-10-07-1000133429httpshalflifehackclub-assetscomhackclub)
 7. [2026-10-07 – i tackled the right-side gpio header routing by systematically pulling copper traces from the rp2040 pins out toward the header pins and current-limiting resistors. since space was getting tight, i ha](#2026-10-07-i-tackled-the-right-side-gpio-header-routing-by-s)
-8. [2026-10-07 – Work session](#2026-10-07-work-session)
+8. [2026-10-07 – after spending an hour routing the final batch of signals, i poured solid ground planes across both the top and bottom layers of the board. disaster struck almost immediately when i noticed that sever](#2026-10-07-after-spending-an-hour-routing-the-final-batch-of)
 9. [2026-10-07 – Work session](#2026-10-07-work-session)
 10. [2026-10-07 – Work session](#2026-10-07-work-session)
 11. [2026-10-07 – Work session](#2026-10-07-work-session)
@@ -92,9 +92,11 @@ i tackled the right-side gpio header routing by systematically pulling copper tr
 
 [Timelapse](https://lookout.hackclub.com/api/media/dbf397d8-f065-45ef-9b4d-df3f0a35d00e/video.mp4)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – after spending an hour routing the final batch of signals, i poured solid ground planes across both the top and bottom layers of the board. disaster struck almost immediately when i noticed that sever
 
 **0.55h**
+
+after spending an hour routing the final batch of signals, i poured solid ground planes across both the top and bottom layers of the board. disaster struck almost immediately when i noticed that several traces had cut off sections of copper and created completely isolated ground islands. I had to rip up a dozen nicely routed traces and completely re-route them just to open up paths for ground continuity [ground fills look super satisfying until they destroy hours of your previous routing work].
 
 [Timelapse](https://lookout.hackclub.com/api/media/ce9258ec-6ad9-4751-8cf8-02ce0b6c5e7e/video.mp4)
 
