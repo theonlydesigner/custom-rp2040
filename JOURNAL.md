@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-07 – i kicked off the design process today by diving straight into the schematic editor on kicad to lay down the absolute foundation of the board. i placed the core rp2040 chip along with essential support](#2026-10-07-i-kicked-off-the-design-process-today-by-diving-s)
-2. [2026-10-07 – Work session](#2026-10-07-work-session)
+2. [2026-10-07 – this session was all about making sure the board can actually talk to external hardware and modules. i selected and placed the dual-row header connectors for all the breakout pins and spent a good chu](#2026-10-07-this-session-was-all-about-making-sure-the-board-)
 3. [2026-10-07 – Work session](#2026-10-07-work-session)
 4. [2026-10-07 – Work session](#2026-10-07-work-session)
 5. [2026-10-07 – Work session](#2026-10-07-work-session)
@@ -38,9 +38,11 @@ i kicked off the design process today by diving straight into the schematic edit
 
 [Timelapse](https://lookout.hackclub.com/api/media/269a9ae2-2f54-47e3-90a6-ad32681b4d10/video.mp4)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – this session was all about making sure the board can actually talk to external hardware and modules. i selected and placed the dual-row header connectors for all the breakout pins and spent a good chu
 
 **0.25h**
+
+this session was all about making sure the board can actually talk to external hardware and modules. i selected and placed the dual-row header connectors for all the breakout pins and spent a good chunk of time double-checking physical pitch dimensions. lining up the connectors cleanly while making sure the ground, power, and gpio lines matched my planned hackpad matrix was tricky because the grid snap kept jumping around [getting header pins perfectly parallel is way more frustrating than it has any right to be].
 
 [Timelapse](https://lookout.hackclub.com/api/media/8c4b389f-63ab-4df3-a1fd-251f6097bf4c/video.mp4)
 
