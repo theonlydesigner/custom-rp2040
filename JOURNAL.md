@@ -16,7 +16,7 @@
 
 1. [2026-10-07 – i kicked off the design process today by diving straight into the schematic editor on kicad to lay down the absolute foundation of the board. i placed the core rp2040 chip along with essential support](#2026-10-07-i-kicked-off-the-design-process-today-by-diving-s)
 2. [2026-10-07 – this session was all about making sure the board can actually talk to external hardware and modules. i selected and placed the dual-row header connectors for all the breakout pins and spent a good chu](#2026-10-07-this-session-was-all-about-making-sure-the-board-)
-3. [2026-10-07 – Work session](#2026-10-07-work-session)
+3. [2026-10-07 – i opened up the project today only to realize i had made a complete mess of my net labels and misassigned a bunch of critical gpio pins. i spent the entire two hours carefully tracing each wire back t](#2026-10-07-i-opened-up-the-project-today-only-to-realize-i-h)
 4. [2026-10-07 – Work session](#2026-10-07-work-session)
 5. [2026-10-07 – Work session](#2026-10-07-work-session)
 6. [2026-10-07 – ![1000133429](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/CXd7Tc2SjOfp5fO0zNuwfYwkKkx3neG4/f5cda6259d80a37d843964ad9e9094405788a6d4c6de68871c628a0dc39b1731.jpg)](#2026-10-07-1000133429httpshalflifehackclub-assetscomhackclub)
@@ -46,9 +46,11 @@ this session was all about making sure the board can actually talk to external h
 
 [Timelapse](https://lookout.hackclub.com/api/media/8c4b389f-63ab-4df3-a1fd-251f6097bf4c/video.mp4)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – i opened up the project today only to realize i had made a complete mess of my net labels and misassigned a bunch of critical gpio pins. i spent the entire two hours carefully tracing each wire back t
 
 **0.23h**
+
+i opened up the project today only to realize i had made a complete mess of my net labels and misassigned a bunch of critical gpio pins. i spent the entire two hours carefully tracing each wire back to the rp2040 chip, deleting invalid connections, and re-labeling every single net to avoid subtle bugs down the line. it was tedious work, but fixing these silly mistakes early in the schematic saved me from total disaster during routing [nothing brings you back to reality faster than auditing your own broken logic].
 
 [Timelapse](https://lookout.hackclub.com/api/media/d9df902d-8b3c-43a0-b24e-54f84b571e70/video.mp4)
 
