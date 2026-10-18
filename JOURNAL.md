@@ -20,7 +20,7 @@
 4. [2026-10-07 – today was dedicated to footprint assignment which is basically matching every virtual component to its real-world physical package. i spent time sifting through footprint libraries to find the precise](#2026-10-07-today-was-dedicated-to-footprint-assignment-which)
 5. [2026-10-07 – this ended up being one of my absolute longest design sessions because i finally moved from the schematic over to the pcb layout editor. i drew the edge cuts to define the physical border of the board](#2026-10-07-this-ended-up-being-one-of-my-absolute-longest-de)
 6. [2026-10-07 – ![1000133429](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/CXd7Tc2SjOfp5fO0zNuwfYwkKkx3neG4/f5cda6259d80a37d843964ad9e9094405788a6d4c6de68871c628a0dc39b1731.jpg)](#2026-10-07-1000133429httpshalflifehackclub-assetscomhackclub)
-7. [2026-10-07 – Work session](#2026-10-07-work-session)
+7. [2026-10-07 – i tackled the right-side gpio header routing by systematically pulling copper traces from the rp2040 pins out toward the header pins and current-limiting resistors. since space was getting tight, i ha](#2026-10-07-i-tackled-the-right-side-gpio-header-routing-by-s)
 8. [2026-10-07 – Work session](#2026-10-07-work-session)
 9. [2026-10-07 – Work session](#2026-10-07-work-session)
 10. [2026-10-07 – Work session](#2026-10-07-work-session)
@@ -84,9 +84,11 @@ since this was my first time designing an RP2040 board from scratch, trying to c
 
 i had to pause every 5 minutes to watch multiple youtube tutorials on KiCad trace routing, net classes and how to use vias without making the PCB look like cheese. i kept triggering Design Rule Check (DRC) errors because my traces were either too close to the ground plane or running over decoupling capacitors. after two hours of tearing my hair out, re-routing lines three times over and wrestling with via placements, the left side is finally connected and fully routed.
 
-### 2026-10-07 – Work session
+### 2026-10-07 – i tackled the right-side gpio header routing by systematically pulling copper traces from the rp2040 pins out toward the header pins and current-limiting resistors. since space was getting tight, i ha
 
 **0.55h**
+
+i tackled the right-side gpio header routing by systematically pulling copper traces from the rp2040 pins out toward the header pins and current-limiting resistors. since space was getting tight, i had to learn how to effectively use vias to jump traces between the top and bottom copper layers without ruining signal paths. i kept alternating between layers and checking clearances to make sure no two traces collided or ran parallel for too long [switching back and forth between front and back copper planes feels like a giant puzzle game once you get into the groove].
 
 [Timelapse](https://lookout.hackclub.com/api/media/dbf397d8-f065-45ef-9b4d-df3f0a35d00e/video.mp4)
 
