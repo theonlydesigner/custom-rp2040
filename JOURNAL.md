@@ -24,7 +24,7 @@
 8. [2026-10-07 – after spending an hour routing the final batch of signals, i poured solid ground planes across both the top and bottom layers of the board. disaster struck almost immediately when i noticed that sever](#2026-10-07-after-spending-an-hour-routing-the-final-batch-of)
 9. [2026-10-07 – i hit the design rule checker button today and was greeted by an absolute wall of red error markers pointing out clearance violations and unconnected nets. i spent the entire session tweaking trace wi](#2026-10-07-i-hit-the-design-rule-checker-button-today-and-wa)
 10. [2026-10-07 – while inspecting my layout i made the horrifying discovery that i had swapped two resistor values near the crystal oscillator circuit. i moved them back into their correct positions and re-routed the](#2026-10-07-while-inspecting-my-layout-i-made-the-horrifying-)
-11. [2026-10-07 – Work session](#2026-10-07-work-session)
+11. [2026-10-07 – i spent the first half of this session fine-tuning the silkscreen layer so the custom graphics would actually render crisply in physical two-tone white ink. a few hack club stickers looked super muddy](#2026-10-07-i-spent-the-first-half-of-this-session-fine-tunin)
 12. [2026-10-07 – Work session](#2026-10-07-work-session)
 13. [2026-10-07 – So I finished it all off by creating the BOM and finding these freaking components which were genuinely so hard to find that I felt like a cyber crime investigator. Also I planned making a hackpad wit](#2026-10-07-so-i-finished-it-all-off-by-creating-the-bom-and-)
 
@@ -116,9 +116,11 @@ while inspecting my layout i made the horrifying discovery that i had swapped tw
 
 [Timelapse](https://lookout.hackclub.com/api/media/75b58998-976e-44d1-9c34-e4ab08120736/video.mp4)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – i spent the first half of this session fine-tuning the silkscreen layer so the custom graphics would actually render crisply in physical two-tone white ink. a few hack club stickers looked super muddy
 
 **0.43h**
+
+i spent the first half of this session fine-tuning the silkscreen layer so the custom graphics would actually render crisply in physical two-tone white ink. a few hack club stickers looked super muddy in black and white, so i tested different vector art assets until i found clean ones that fit nicely on the back of the board. once everything looked polished, i generated the gerber and drill files, compressed them, and headed over to jlcpcb to check out assembly prices [seeing the high total cost in the cart was a swift reality check].
 
 [Timelapse](https://lookout.hackclub.com/api/media/ba1b83b3-4d2b-42df-8b29-47f84c1282d5/video.mp4)
 
