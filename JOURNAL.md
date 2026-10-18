@@ -23,7 +23,7 @@
 7. [2026-10-07 – i tackled the right-side gpio header routing by systematically pulling copper traces from the rp2040 pins out toward the header pins and current-limiting resistors. since space was getting tight, i ha](#2026-10-07-i-tackled-the-right-side-gpio-header-routing-by-s)
 8. [2026-10-07 – after spending an hour routing the final batch of signals, i poured solid ground planes across both the top and bottom layers of the board. disaster struck almost immediately when i noticed that sever](#2026-10-07-after-spending-an-hour-routing-the-final-batch-of)
 9. [2026-10-07 – i hit the design rule checker button today and was greeted by an absolute wall of red error markers pointing out clearance violations and unconnected nets. i spent the entire session tweaking trace wi](#2026-10-07-i-hit-the-design-rule-checker-button-today-and-wa)
-10. [2026-10-07 – Work session](#2026-10-07-work-session)
+10. [2026-10-07 – while inspecting my layout i made the horrifying discovery that i had swapped two resistor values near the crystal oscillator circuit. i moved them back into their correct positions and re-routed the](#2026-10-07-while-inspecting-my-layout-i-made-the-horrifying-)
 11. [2026-10-07 – Work session](#2026-10-07-work-session)
 12. [2026-10-07 – Work session](#2026-10-07-work-session)
 13. [2026-10-07 – So I finished it all off by creating the BOM and finding these freaking components which were genuinely so hard to find that I felt like a cyber crime investigator. Also I planned making a hackpad wit](#2026-10-07-so-i-finished-it-all-off-by-creating-the-bom-and-)
@@ -108,9 +108,11 @@ i hit the design rule checker button today and was greeted by an absolute wall o
 
 [Timelapse](https://lookout.hackclub.com/api/media/10de7fd2-a9c0-4949-a5f2-423b0b1ae599/video.mp4)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – while inspecting my layout i made the horrifying discovery that i had swapped two resistor values near the crystal oscillator circuit. i moved them back into their correct positions and re-routed the
 
 **0.82h**
+
+while inspecting my layout i made the horrifying discovery that i had swapped two resistor values near the crystal oscillator circuit. i moved them back into their correct positions and re-routed the surrounding connections from scratch. to fix the remaining isolated ground planes, i used some ai prompts to figure out optimal via stitching locations and tied all the ground zones together cleanly. I wrapped up by customizing the silkscreen with my username and cool hack club logo artwork [if the circuit somehow fails, at least the board will look amazingly stylish].
 
 [Timelapse](https://lookout.hackclub.com/api/media/75b58998-976e-44d1-9c34-e4ab08120736/video.mp4)
 
