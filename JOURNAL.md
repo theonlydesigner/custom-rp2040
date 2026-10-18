@@ -22,7 +22,7 @@
 6. [2026-10-07 – ![1000133429](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/CXd7Tc2SjOfp5fO0zNuwfYwkKkx3neG4/f5cda6259d80a37d843964ad9e9094405788a6d4c6de68871c628a0dc39b1731.jpg)](#2026-10-07-1000133429httpshalflifehackclub-assetscomhackclub)
 7. [2026-10-07 – i tackled the right-side gpio header routing by systematically pulling copper traces from the rp2040 pins out toward the header pins and current-limiting resistors. since space was getting tight, i ha](#2026-10-07-i-tackled-the-right-side-gpio-header-routing-by-s)
 8. [2026-10-07 – after spending an hour routing the final batch of signals, i poured solid ground planes across both the top and bottom layers of the board. disaster struck almost immediately when i noticed that sever](#2026-10-07-after-spending-an-hour-routing-the-final-batch-of)
-9. [2026-10-07 – Work session](#2026-10-07-work-session)
+9. [2026-10-07 – i hit the design rule checker button today and was greeted by an absolute wall of red error markers pointing out clearance violations and unconnected nets. i spent the entire session tweaking trace wi](#2026-10-07-i-hit-the-design-rule-checker-button-today-and-wa)
 10. [2026-10-07 – Work session](#2026-10-07-work-session)
 11. [2026-10-07 – Work session](#2026-10-07-work-session)
 12. [2026-10-07 – Work session](#2026-10-07-work-session)
@@ -100,9 +100,11 @@ after spending an hour routing the final batch of signals, i poured solid ground
 
 [Timelapse](https://lookout.hackclub.com/api/media/ce9258ec-6ad9-4751-8cf8-02ce0b6c5e7e/video.mp4)
 
-### 2026-10-07 – Work session
+### 2026-10-07 – i hit the design rule checker button today and was greeted by an absolute wall of red error markers pointing out clearance violations and unconnected nets. i spent the entire session tweaking trace wi
 
 **0.65h**
+
+i hit the design rule checker button today and was greeted by an absolute wall of red error markers pointing out clearance violations and unconnected nets. i spent the entire session tweaking trace widths, pushing vias around, and finding far more efficient paths for tight copper traces. resolving every single drc flag felt like playing high-stakes whack-a-mole, but clearing the last error was ridiculously satisfying [the drc tool is a harsh critic, but it definitely saved me from ordering a completely useless brick].
 
 [Timelapse](https://lookout.hackclub.com/api/media/10de7fd2-a9c0-4949-a5f2-423b0b1ae599/video.mp4)
 
