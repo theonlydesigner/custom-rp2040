@@ -9,5 +9,7 @@ PS: Please ignore the dates as the timeline might be weird. This is because this
 
 # October 1: Getting the KiCad ready
 i kicked off the design process today by diving straight into the schematic editor on kicad to lay down the absolute foundation of the board. i placed the core rp2040 chip along with essential support components like the ldo voltage regulator and the w25q128 flash memory. mapping out the power pins and assign gpio lines to their corresponding nets took a while because i wanted to make sure i did not mix up any crucial connections [my schematic looked like a chaotic spiderweb by the end of it, but every pin had its rightful place].
+
 [Timelapse](https://lapse.hackclub.com/timelapse/koFGrANDHxOM)
+
 **Total time spent: 0.8hrs**
