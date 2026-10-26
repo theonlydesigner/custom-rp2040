@@ -1,4 +1,4 @@
-# week 1: rp2040 dev board & mini hackpad
+# week 1: rp2040 dev board
 
 ## project goals
 * **Target Specs:** custom RP2040 microcontroller board using the QFN-56 package, 16MB QSPI flash, 12MHz crystal oscillator, USB-C connector with 5.1k CC pull-down resistors and dual-row breakout headers for all GPIO pins to drive a mini hackpad.
