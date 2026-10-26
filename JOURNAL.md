@@ -34,3 +34,36 @@ today was dedicated to footprint assignment which is basically matching every vi
 [Timelapse](https://lapse.hackclub.com/timelapse/lolXFzOe4yQK)
 
 **Total time spent: 0.17hrs**
+
+# October 4: Moving on to PCB
+this ended up being one of my absolute longest design sessions because i finally moved from the schematic over to the pcb layout editor. i drew the edge cuts to define the physical border of the board and began the massive puzzle of placing components in logical groups. arranging dozens of tiny decoupling capacitors right next to the rp2040 power pins was super tough, so i scattered them around approximately while leaving room for future trace paths. i also swapped out a few bulky footprints for smaller variants to save precious board real estate [the workspace was pure chaos, but seeing the physical board shape felt awesome].
+
+[Timelapse](https://lapse.hackclub.com/timelapse/BpPRrd9Gj9HX)
+
+**Total time spent: 1.5hrs**
+
+# October 5: Routing the left headers to chip
+this was easily the most painful part of the entire week. of course, this is the exact 2-hour block where i forgot to start the lapse recording, so you'll just have to take my word for it that i was working and not staring blankly at a wall.
+
+since this was my first time designing an RP2040 board from scratch, trying to connect the RP2040 pins to the left-side GPIO headers turned into a complete trace-routing nightmare. i was following the hack club stasis guide, but making clean connections for GPIO0 through GPIO15 without crossing traces or creating illegal angles felt like playing a high-stakes game of snake.
+
+i had to pause every 5 minutes to watch multiple youtube tutorials on KiCad trace routing, net classes and how to use vias without making the PCB look like cheese. i kept triggering Design Rule Check (DRC) errors because my traces were either too close to the ground plane or running over decoupling capacitors. after two hours of tearing my hair out, re-routing lines three times over and wrestling with via placements, the left side is finally connected and fully routed.
+
+![image 1](images/6_1)
+![image 2](images/6_2)
+
+**Total time spent: 2hrs**
+
+# October 6: Right Side now
+i tackled the right-side gpio header routing by systematically pulling copper traces from the rp2040 pins out toward the header pins and current-limiting resistors. since space was getting tight, i had to learn how to effectively use vias to jump traces between the top and bottom copper layers without ruining signal paths. i kept alternating between layers and checking clearances to make sure no two traces collided or ran parallel for too long [switching back and forth between front and back copper planes feels like a giant puzzle game once you get into the groove].
+
+[Timelapse](https://lapse.hackclub.com/timelapse/k2gNUP4aI8xh)
+
+**Total time spent: 0.55 hrs**
+
+# October 7: Finishing up with Routes and pouring Ground Fill
+after spending an hour routing the final batch of signals, i poured solid ground planes across both the top and bottom layers of the board. disaster struck almost immediately when i noticed that several traces had cut off sections of copper and created completely isolated ground islands. I had to rip up a dozen nicely routed traces and completely re-route them just to open up paths for ground continuity [ground fills look super satisfying until they destroy hours of your previous routing work].
+
+[Timelapse](https://lapse.hackclub.com/timelapse/fekKvQMEnl0S)
+
+**Total time spent: 0.55**
