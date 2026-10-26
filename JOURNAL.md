@@ -66,4 +66,41 @@ after spending an hour routing the final batch of signals, i poured solid ground
 
 [Timelapse](https://lapse.hackclub.com/timelapse/fekKvQMEnl0S)
 
-**Total time spent: 0.55**
+**Total time spent: 0.55 hrs**
+
+# October 8: Design Rules and fixing the errors
+i hit the design rule checker button today and was greeted by an absolute wall of red error markers pointing out clearance violations and unconnected nets. i spent the entire session tweaking trace widths, pushing vias around, and finding far more efficient paths for tight copper traces. resolving every single drc flag felt like playing high-stakes whack-a-mole, but clearing the last error was ridiculously satisfying [the drc tool is a harsh critic, but it definitely saved me from ordering a completely useless brick].
+
+[Timelapse](https://lapse.hackclub.com/timelapse/nZIj2UNPu_0h)
+
+**Total time spent: 0.65 hrs**
+
+# October 9: Fixing a major error and silkscreen
+while inspecting my layout i made the horrifying discovery that i had swapped two resistor values near the crystal oscillator circuit. i moved them back into their correct positions and re-routed the surrounding connections from scratch. to fix the remaining isolated ground planes, i used some ai prompts to figure out optimal via stitching locations and tied all the ground zones together cleanly. I wrapped up by customizing the silkscreen with my username and cool hack club logo artwork [if the circuit somehow fails, at least the board will look amazingly stylish].
+
+[Timelapse](https://lapse.hackclub.com/timelapse/HYEuobokz6vN)
+
+**Total time spent: 0.82 hrs**
+
+# October 9: More silkscreen
+i spent the first half of this session fine-tuning the silkscreen layer so the custom graphics would actually render crisply in physical two-tone white ink. a few hack club stickers looked super muddy in black and white, so i tested different vector art assets until i found clean ones that fit nicely on the back of the board. once everything looked polished, i generated the gerber and drill files, compressed them, and headed over to jlcpcb to check out assembly prices [seeing the high total cost in the cart was a swift reality check].
+
+[Timelapse](https://lapse.hackclub.com/timelapse/TIuRY7vu_TxT)
+
+**Total time spent: 0.43 hrs**
+
+# October 10: Figuring out BOM
+i uploaded my component placement file and bill of materials to jlcpcb, only to run into major component rotation and alignment bugs in their web viewer. i went through and manually adjusted offset coordinates, fixed broken manufacturer part numbers, and aligned every single part correctly over its pads in 3d. unfortunately, the final pcba quote far exceeded my allocated grant budget, which means i will be ordering bare boards and hand-soldering every microscopic component myself [my hands are already shaking thinking about hand-soldering that qfn rp2040 chip during build week].
+
+[Timelapse](https://lapse.hackclub.com/timelapse/_C8K82IgWKmQ)
+
+**Total time spent: 0.53 hrs**
+
+# October 11: Readme and Repo
+So I finished it all off by creating the BOM and finding these freaking components which were genuinely so hard to find that I felt like a cyber crime investigator. Also I planned making a hackpad with this devboard but I soon realised I won't get enough grant to make it so I dropped the idea unfortunately after finding all the resources for it. I then wrote the readme files and organised the project structure.
+Overall I'm pretty happy with how this project turned out. Now let's see what we face in building.
+
+![image 1](images/11_1)
+![image 2](images/11_2)
+
+**Total time spent: 1.7hrs**
