@@ -116,3 +116,10 @@ Overall I'm pretty happy with how this project turned out. Now let's see what we
 ![image 2](images/13_2.png)
 
 **Total time spent: 1.7hrs**
+
+# November 5: Adding LEDS
+got some feedback from the reviewer suggesting that i should add an addressable led to the board. i thought adding five sk6812mini-e leds would look cool and turn the dev board into a tiny light show. i placed them all down only to realize my board has zero space left and looks like a crammed circuit graveyard [ambition always outruns available pcb real estate]. 
+i scaled it back down to just one lonely led and went hunting for the nearest gpio pin to hook it up. routing that single data line required a ridiculous amount of trial and error because every nearby path was already blocked by other traces. once i finally got it wired up, disaster struck again when the ground fills decided to isolate random bits of copper. i had to drop a bunch of extra vias all over the place just to reconnect everything and save the design [ground planes love breaking my layouts whenever i make any tiny changes].
+
+![schematic](images/115_1.png)
+![pcb](images/115_2.png)
