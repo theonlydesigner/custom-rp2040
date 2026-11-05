@@ -123,3 +123,5 @@ i scaled it back down to just one lonely led and went hunting for the nearest gp
 
 ![schematic](images/115_1.png)
 ![pcb](images/115_2.png)
+
+**Total time spent: 1 hr**
