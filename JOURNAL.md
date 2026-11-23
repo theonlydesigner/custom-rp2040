@@ -125,3 +125,7 @@ i scaled it back down to just one lonely led and went hunting for the nearest gp
 ![pcb](images/115_2.png)
 
 **Total time spent: 1 hr**
+
+
+**Total Time for the project: 11hrs(Rounded Off)
+Tracked: 7.5 and other is untracked**
